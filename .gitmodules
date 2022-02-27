@@ -1,0 +1,24 @@
+[submodule "pack/airblade/start/vim-gitgutter"]
+	path = pack/airblade/start/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
+[submodule "pack/justinmk/start/vim-sneak"]
+	path = pack/justinmk/start/vim-sneak
+	url = https://github.com/justinmk/vim-sneak
+[submodule "pack/mbbill/start/undotree"]
+	path = pack/mbbill/start/undotree
+	url = https://github.com/mbbill/undotree
+[submodule "pack/altercation/start/vim-colors-solarized"]
+	path = pack/altercation/start/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized
+[submodule "pack/tpope/start/fugitive"]
+	path = pack/tpope/start/fugitive
+	url = https://github.com/tpope/vim-fugitive
+[submodule "pack/tpope/start/repeat"]
+	path = pack/tpope/start/repeat
+	url = https://github.com/tpope/vim-repeat
+[submodule "pack/tpope/start/sensible"]
+	path = pack/tpope/start/sensible
+	url = https://github.com/tpope/vim-sensible
+[submodule "pack/tpope/start/surround"]
+	path = pack/tpope/start/surround
+	url = https://github.com/tpope/vim-surround
