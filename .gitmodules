@@ -22,3 +22,6 @@
 [submodule "pack/tpope/start/surround"]
 	path = pack/tpope/start/surround
 	url = https://github.com/tpope/vim-surround
+[submodule "pack/KarlGuterin/start/AutoClose"]
+	path = pack/KarlGuterin/start/AutoClose
+	url = https://github.com/vim-scripts/AutoClose
