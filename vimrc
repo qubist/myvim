@@ -65,8 +65,6 @@ nmap Q <Nop> " 'Q' in normal mode enters Ex mode. You almost never want this.
 
 " Disable arrow keys
 
-noremap <Up> <Nop>
-noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
 
@@ -74,6 +72,14 @@ inoremap <Up> <Nop>
 inoremap <Down> <Nop>
 inoremap <Left> <Nop>
 inoremap <Right> <Nop>
+
+" Up and down arrow keys move lines
+
+nnoremap <Down> :m .+1<CR>==
+nnoremap <Up> :m .-2<CR>==
+
+vnoremap <Down> :m '>+1<CR>gv=gv
+vnoremap <Up> :m '<-2<CR>gv=gv
 
 " Better editing for git commit messages
 if has('autocmd')
