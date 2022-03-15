@@ -25,3 +25,6 @@
 [submodule "pack/KarlGuterin/start/AutoClose"]
 	path = pack/KarlGuterin/start/AutoClose
 	url = https://github.com/vim-scripts/AutoClose
+[submodule "pack/tpope/start/commentary"]
+	path = pack/tpope/start/commentary
+	url = https://tpope.io/vim/commentary.git
