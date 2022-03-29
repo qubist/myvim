@@ -32,7 +32,7 @@ inoremap <C-b> <C-o>h
 syntax enable
 set background=dark
 
-colorscheme solarized
+" No solarizied colorshceme on rm2
 
 " Red comments
 " (see https://jameshfisher.com/2014/05/11/your-syntax-highlighter-is-wrong/)
@@ -44,14 +44,9 @@ set smartcase           " Do smart case matching
 set incsearch           " Incremental search
 set mouse=a             " Enable mouse usage (all modes)
 
-" Better ruler
-" (https://jeffkreeftmeijer.com/vim-number/)
+" Ruler with numbers
 set number
-augroup numbertoggle
-    autocmd!
-    autocmd BufEnter,FocusGained,InsertLeave,WinEnter * if &nu && mode() != "i" | set rnu   | endif
-    autocmd BufLeave,FocusLost,InsertEnter,WinLeave   * if &nu                  | set nornu | endif
-augroup END
+" (No relative line numbers for rm2 because they change too much)
 
 " Always show the status line at the bottom, even if you only have one window
 " open.
