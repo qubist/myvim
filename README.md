@@ -6,6 +6,7 @@ it's mine >:)
 
 ```
 git clone https://github.com/qubist/myvim.git .vim
+cd .vim
 git submodule init
 git submodule update
 ```
