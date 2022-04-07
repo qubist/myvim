@@ -40,7 +40,8 @@ highlight Comment ctermfg=red
 
 set showcmd             " Show (partial) command in status line.
 set showmatch           " Show matching brackets.
-set smartcase           " Do smart case matching
+set ignorecase          " Ignore case when searching...
+set smartcase           " ...unless search contains an uppercase character
 set incsearch           " Incremental search
 set mouse=a             " Enable mouse usage (all modes)
 
