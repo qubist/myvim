@@ -138,3 +138,9 @@ vnoremap <silent> # :<C-U>
 " Incremental word replacement
 nmap <leader>c *Ncgn
 vmap <leader>c *Ncgn
+
+" Clear line
+nmap <leader>d 0D
+
+" Fast write file
+cmap W w
