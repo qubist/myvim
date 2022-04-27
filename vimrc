@@ -142,6 +142,13 @@ vnoremap <silent> # :<C-U>
 nmap <leader>c *Ncgn
 vmap <leader>c *Ncgn
 
+" Clear line
+nmap <leader>d 0D
+
+" Fast write file
+cmap W w
+
 " Easier pasting from system clipboard
 nmap <leader>* "*p
 vmap <leader>* "*p
+
