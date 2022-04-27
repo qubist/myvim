@@ -32,8 +32,6 @@ inoremap <C-b> <C-o>h
 syntax enable
 set background=dark
 
-" No solarizied colorshceme on rm2
-
 " Red comments
 " (see https://jameshfisher.com/2014/05/11/your-syntax-highlighter-is-wrong/)
 highlight Comment ctermfg=red
@@ -144,3 +142,8 @@ nmap <leader>d 0D
 
 " Fast write file
 cmap W w
+
+" Easier pasting from system clipboard
+nmap <leader>* "*p
+vmap <leader>* "*p
+
