@@ -32,8 +32,6 @@ inoremap <C-b> <C-o>h
 syntax enable
 set background=dark
 
-colorscheme solarized
-
 " Red comments
 " (see https://jameshfisher.com/2014/05/11/your-syntax-highlighter-is-wrong/)
 highlight Comment ctermfg=red
@@ -143,3 +141,7 @@ vnoremap <silent> # :<C-U>
 " Incremental word replacement
 nmap <leader>c *Ncgn
 vmap <leader>c *Ncgn
+
+" Easier pasting from system clipboard
+nmap <leader>* "*p
+vmap <leader>* "*p
